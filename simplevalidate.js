@@ -6,8 +6,10 @@ var ruleCategory = {
 
 //ckeditor validation callback function
 var ckeditorCallback = function(el){
+	//implement the validation for ckeditor
 }
 
+//can add others
 var validateCallback = {
 	"ckeditor": ckeditorCallback	
 }
