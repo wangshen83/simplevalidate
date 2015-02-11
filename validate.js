@@ -108,8 +108,12 @@ $.extend($.validator, {
 		if(!element instanceof jQuery){
 			element = $(element);
 		}
-		var type = element.prop("tagName");
-		var value = "";
+		var tagname = element.prop("tagName");
+		var type = "";
+		if(tagname == "INPUT"){
+			type = element.attr("type");
+		}
+		var value = element.val();
 		switch (type){
 			case "RADIO":
 			case "CHECKBOX":
