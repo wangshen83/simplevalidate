@@ -115,8 +115,8 @@ $.extend($.validator, {
 		}
 		var value = element.val();
 		switch (type){
-			case "RADIO":
-			case "CHECKBOX":
+			case "radio":
+			case "checkbox":
 				value = $("input[name=" + element.attr('name') + "]:checked").val();
 				break;
 			default:
