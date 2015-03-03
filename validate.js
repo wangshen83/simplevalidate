@@ -37,7 +37,7 @@ $.extend($.validator, {
 	//can add rules to extend
 	addRules: function(name, callback, params, message){
 		this.addMethod(name, callback, message);
-		this.validator.settings.ruleList[name] = {
+		$.validator.settings.ruleList[name] = {
 			validateMethod: callback,
 			params: params
 		}
