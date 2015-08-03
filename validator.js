@@ -1,3 +1,4 @@
+(function ($) {
 	//begin the validator
 	var validator = {
 		regexObj : {
@@ -112,3 +113,7 @@
 			}
 		};
 	})();
+
+	$.fn.validate = validate;
+	$.fn.validator = validator;
+})(jQuery);
