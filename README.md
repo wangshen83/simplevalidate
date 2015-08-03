@@ -1,2 +1,1 @@
-# simplevalidate
-first one, simple validate for company project
+Some small widgets wrote daily
