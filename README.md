@@ -1,1 +1,1 @@
-Some small widgets wrote daily
+validation implementation
