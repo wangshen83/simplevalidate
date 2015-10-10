@@ -8,11 +8,11 @@
 		},
 
 		showhideErrorMsg : function(el, callback, msg) {
-			if (!msg) {
-				msg = "";
-			}
 			if (!el) {
 				return;
+			}
+			if (!msg) {
+				msg = "";
 			}
 			callback.call(this, el, msg);
 		},
