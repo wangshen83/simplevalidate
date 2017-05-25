@@ -114,6 +114,6 @@
 		};
 	})();
 
-	$.fn.validate = validate;
-	$.fn.validator = validator;
+	$.validate = validate;
+	$.validator = validator;
 })(jQuery);
